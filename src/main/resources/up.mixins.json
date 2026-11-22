@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ts.up.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockEntityMixin",
+    "RandomizableContainerMixin"
+  ],
+  "client": [
+    "BlockEntityRenderDispatcherMixin",
+    "MaterialMixin",
+    "RenderTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
